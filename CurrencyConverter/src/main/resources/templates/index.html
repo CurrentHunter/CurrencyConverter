@@ -3,6 +3,9 @@
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorator="layouts/default"
       lang="ru">
+
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+
 <body>
 <div id="page" layout:fragment="content">
     <form class="form" th:action="@{/exchange}" method="get">
