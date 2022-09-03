@@ -13,3 +13,4 @@
 - Tomcat
 - Maven
 - Lombok
+- CI/CD (Jenkins, AWS)
